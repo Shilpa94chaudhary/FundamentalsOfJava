@@ -14,7 +14,7 @@ public class CheckNumberSequence {
 		
         if(num == 1) {
 			num1 = s.nextLong();
-			System.out.println("false");
+			System.out.println("true");
 			return;
 		}else if(num == 2) {
 			num0 = s.nextLong();
