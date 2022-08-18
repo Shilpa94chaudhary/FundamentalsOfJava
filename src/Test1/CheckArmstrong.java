@@ -6,6 +6,17 @@ public class CheckArmstrong {
 
 	public static void main(String[] args) {
 		
+//		Input: 
+//		4
+//		Output: 
+//		false
+		
+//		Input: 
+//		371
+//		Output: 
+//		true
+		
+		
 		Scanner s = new Scanner(System.in);
 		int num, newNum = 0, temp;
 		
