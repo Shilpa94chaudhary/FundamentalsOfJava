@@ -1,4 +1,4 @@
-package Array;
+package Array2;
 
 public class CodeBinarySearch {
 
