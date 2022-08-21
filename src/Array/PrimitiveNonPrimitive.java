@@ -6,13 +6,16 @@ public class PrimitiveNonPrimitive {
 		n++;
 	}
 	
-	public static void incrementNonPri(int [] arr) {
+	public static int[] incrementNonPri(int [] arr) {
+		arr = new int[7];
 		for(int i = 0 ; i < arr.length ; i++) {
 			arr[i] = arr[i]+1;
 		}
+		return arr;
 	}
 	
 	public static void printArray(int [] arr) {
+
 		for(int i = 0 ; i < arr.length ; i++) {
 			System.out.print(arr[i] + " ");
 		}
@@ -29,9 +32,11 @@ public class PrimitiveNonPrimitive {
 		
 		System.out.println("Non Primitive numbers (array) befor function call: ");
 		printArray(arr);
-		incrementNonPri(arr);
+		arr = incrementNonPri(arr);
+//		incrementNonPri(arr);
 		System.out.println("Non Primitive numbers (array) after function call: ");
 		printArray(arr);
+		
 		
 		
 	}
