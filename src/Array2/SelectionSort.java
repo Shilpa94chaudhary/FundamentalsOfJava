@@ -9,11 +9,13 @@ public class SelectionSort {
     		min=arr[i];
     		minIndex = i;
     		for(int j=i ; j<n ;j++) {
+    			// Find minimum value
     			if(arr[j]<min) {
     				min = arr[j];
     				minIndex = j;
     			}
     		}
+    		// Swap minimum element with ith element
     		if(minIndex != i) {
     			int temp = arr[i];
     			arr[i]=arr[minIndex];
