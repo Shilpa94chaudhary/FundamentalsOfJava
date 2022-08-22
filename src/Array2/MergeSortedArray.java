@@ -58,6 +58,7 @@ public class MergeSortedArray {
 			System.out.print(arr[i]+" ");
 		}
 	}
+	
 	public static void main(String[] args) {
 		int[] arr1 = {1,3,7};
 		int[] arr2 = {2,5,8,9};
