@@ -39,11 +39,22 @@ public class StringOperations {
 //		String a="coding";
 //		System.out.print(a.substring(2));
 		
-		String a="coding";
-		for(int i=2;i<5;i++)
-		{
-		    System.out.print(a.substring(i-2,i+1));
-		}
+//		String a="coding";
+//		for(int i=2;i<5;i++)
+//		{
+//		    System.out.print(a.substring(i-2,i+1));
+//		}
+		
+		  String str01="abc";
+	      String str11="abc";
+	      String str21=new String("abc");
+	      String str31="abc";
+	      
+	      System.out.println(str01 + " " + str11 + " " + str21 + " " + str31);
+	      
+	      str01 = "cda";
+	      
+	      System.out.println(str01 + " " + str11 + " " + str21 + " " + str31);
 
 	}
 
