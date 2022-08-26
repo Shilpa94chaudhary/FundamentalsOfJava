@@ -24,7 +24,7 @@ public class ReverseEachWord {
 	
 	
 	public static void main(String[] args) {
-		String str = "Shilpa Chaudhary";
+		String str = "Shilpa Chaudhary!";
 		System.out.println(reverseEachWord(str));
 	}
 

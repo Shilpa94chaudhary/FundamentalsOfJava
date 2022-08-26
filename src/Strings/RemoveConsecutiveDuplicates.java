@@ -4,15 +4,13 @@ public class RemoveConsecutiveDuplicates {
 
 	public static String removeConsecutiveDuplicates(String str) {
 		String newStr= "";
-		int l = str.length();
 		char ch = 0;
-		for(int i = 0 ; i < l ; i++) {
+		for(int i = 0 ; i < str.length() ; i++) {
 			if(str.charAt(i) != ch) {
-				newStr = newStr + ch;
+				newStr = newStr + str.charAt(i);
 				ch = str.charAt(i);
 			}
 		}
-		newStr = newStr + ch;
 		return newStr;
 	}
 	
