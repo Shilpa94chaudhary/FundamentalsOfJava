@@ -6,9 +6,11 @@ public class CheckNumberSequence {
 
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		
 		long i, num, num0, num1;
+		@SuppressWarnings("unused")
 		boolean sDec = true, sInc = false, seq = true;
 		num = s.nextLong();
 		

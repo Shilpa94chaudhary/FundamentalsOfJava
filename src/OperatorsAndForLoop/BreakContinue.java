@@ -6,6 +6,7 @@ public class BreakContinue {
 
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		int i, n;
 		n = s.nextInt();

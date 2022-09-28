@@ -25,6 +25,7 @@ public class CheckFibonacciNumber {
 
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		
 		int num;

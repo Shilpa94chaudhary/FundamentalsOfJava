@@ -14,20 +14,21 @@ public class NcRFunction {
 
 	public static void main(String[] args) {
 
-	Scanner s = new Scanner(System.in);
-			
-	int n, r, factN, factR, factNR, NcR;
-	n = s.nextInt();
-	r = s.nextInt();
-	
-	factN = factorial(n);
-	factR = factorial(r);
-	factNR = factorial(n - r);
-	
-	NcR = factN / (factR * factNR);
-	
-	System.out.println("NcR = " + NcR);
-			    
+		@SuppressWarnings("resource")
+		Scanner s = new Scanner(System.in);
+
+		int n, r, factN, factR, factNR, NcR;
+		n = s.nextInt();
+		r = s.nextInt();
+
+		factN = factorial(n);
+		factR = factorial(r);
+		factNR = factorial(n - r);
+
+		NcR = factN / (factR * factNR);
+
+		System.out.println("NcR = " + NcR);
+
 	}
 
 }
